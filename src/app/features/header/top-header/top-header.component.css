@@ -1,0 +1,38 @@
+.top_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_header a {
+  color: #000;
+}
+
+.top_header .hamburger {
+  width: 10px;
+  cursor: pointer;
+}
+
+.top_header .hamburger .bar {
+  border: 1px solid #000;
+  height: 2px;
+  margin-bottom: 2px;
+}
+
+.top_header .logo {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Monoton', cursive;
+}
+
+.top_header .logo a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=top-header.component.css.map */

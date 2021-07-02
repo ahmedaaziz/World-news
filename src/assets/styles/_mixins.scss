@@ -1,0 +1,21 @@
+// Mixins
+
+@mixin yellow-background {
+    background-color: $primary-color;
+}
+
+@mixin section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+@mixin animation-mixin($name, $from, $to) {
+    @keyframes #{$name} {
+      0% {width: $from;}
+      100% {width: $to;}
+    }
+  }
+
+  @mixin icon-color($color){
+    color: $color;
+  }

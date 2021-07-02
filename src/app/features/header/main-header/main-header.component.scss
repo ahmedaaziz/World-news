@@ -1,0 +1,17 @@
+.menu {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    li {
+      list-style-type: none;
+       a {
+         color:#000;
+         font-size: 12px;
+         margin: 0 1rem;
+       }
+    }
+  }
+}

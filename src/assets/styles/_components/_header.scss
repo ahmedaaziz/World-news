@@ -1,0 +1,167 @@
+.header-top-info {
+    display: flex;
+    padding: 10px 0 8px 0;
+    .other-info {
+        display: flex;
+        li {
+            list-style-type: none;
+            }
+        .info-service {
+            .heading-text {
+                a {
+                    color:#2f3234;
+                    font-weight: bold;
+                    font-size: 18px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+    
+        }
+    }
+    .header-top-info_logo {}
+    .stm-icon-pin,.stm-icon-phone {
+        font-size: 34px;
+        color: #BB0013;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .header-top-info_address {
+        position: relative;
+        padding-left: 41px;
+        margin-left: 30px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 12px;
+    }
+    .header-top-info_sales {
+        position: relative;
+        padding-left: 41px;
+        margin-left: 30px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 12px;
+    }
+    .header-top-info_service {
+        position: relative;
+        padding-left: 41px;
+        margin-left: 30px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 12px;
+
+    }
+    .header-top-info_social {
+        .social-links {
+            display: flex;
+            li {
+                margin-left: 1em;
+                a {
+                    background-color: #2f3234;
+                    color: #fff;
+                    display: block;
+                    border-radius: 50%;
+                    width: 35px;
+                    height: 35px;
+                    text-align: center;
+                    align-self: center;
+                    line-height: 35px;
+                    // text-indent: 1px;    
+                    transition: all ease-in-out 0.3s;
+                    &:hover {
+                        background-color: $second-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar {
+    background: #eaedf0;
+    padding: 0;
+    
+    .navbar-collapse {
+        // background-color: #F8F9FA;
+        .navbar-nav {
+            
+            .nav-item {
+                text-transform: uppercase;
+                font-weight: bold;
+                &.active {
+                    background:#BB0013;
+                    .nav-link {
+                        color: #fff;
+
+                    }
+                }
+                .nav-link {
+                    font-size: 14px;
+                    color: $dark;
+                    padding: 1em;
+                    transition: all ease-in-out 0.3s;
+                    &:hover {
+                        background:#BB0013;
+                        color: #fff;
+                    }
+                    &:active {
+                        background:#BB0013;
+                        color: #fff;
+        
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar-toggler {
+    i.fa-bars {
+        color: $second-color;
+    }
+}
+.social-mobile {
+    background: #232628;
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+
+    .social-media-navbar-mobile {
+            display: flex;
+            justify-content: center;
+            li {
+                list-style-type: none; 
+                margin-left: 35px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                a {
+                    display: block;
+                    color: #fff;
+                    text-align: center;
+                     i {
+                         line-height: 2;
+                     }
+                    i.fa-phone {
+                        transform: rotate(90deg);
+                    }
+                    border-radius: 50%;
+                     transition: all ease-in-out 0.3s;
+                     width: 35px;
+                     height: 35px;
+                    &:hover {
+                        background-color: $second-color;
+                    }
+                }
+            }
+    }
+}
+
+
+@media (min-width:768px) {
+    .nav-desktop {
+        .navbar-nav {
+            flex-direction: row;
+            .nav-item .nav-link {
+                font-size: 12px;
+            }
+        }
+    }
+}
