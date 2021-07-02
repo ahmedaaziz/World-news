@@ -21,10 +21,13 @@
     "@angular/router": "~9.0.1",
     "@ngx-loading-bar/core": "^5.1.2",
     "@ngx-loading-bar/http-client": "^5.1.2",
+    "enhanced-resolve": "^4.1.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.2",
@@ -49,7 +52,7 @@
     "typescript": "~3.7.5"
   },
   "engines": {
-    "node":"14.15.4",
+    "node": "14.15.4",
     "npm": "7.19.1"
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.",
